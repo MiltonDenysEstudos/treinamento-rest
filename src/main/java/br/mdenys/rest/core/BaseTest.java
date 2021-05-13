@@ -1,4 +1,4 @@
-package br.mdenys;
+package br.mdenys.rest.core;
 
 import org.hamcrest.Matchers;
 import org.junit.BeforeClass;

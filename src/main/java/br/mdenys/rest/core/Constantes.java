@@ -1,4 +1,4 @@
-package br.mdenys;
+package br.mdenys.rest.core;
 
 import io.restassured.http.ContentType;
 
@@ -8,7 +8,6 @@ public interface Constantes {
 	String APP_BASE_PATH = "";
 	
 	ContentType APP_CONTENT_TYPE = ContentType.JSON;
-	Long Max_TIMEOUT = 1000L;
+	Long Max_TIMEOUT = 5000L;
 	
-	//teste
 }
